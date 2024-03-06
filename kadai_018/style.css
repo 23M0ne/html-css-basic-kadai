@@ -3,24 +3,22 @@ body {
   }
 
  #top {
-    width: 800px;
-    margin: 20px 0px 20px 0px;
-    display: flex;
+    display: inline-block;
     background-color: #dcc9f4;
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
   }
   
     
-#top p.top-child {
-    width: 160px;
+.top-child {
+    width:20%;
     background-color: #ffd9df;
-    border: solid 2px #dcc9f4;
-    text-align: center;
-    position: relative;
-    left: 20%;
+    display: inline-block;
   }
   
 
-  #middle {
+#middle {
     width: 800px;
     height: 800px;
     background-color: #ffd9df;
